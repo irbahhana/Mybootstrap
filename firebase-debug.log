@@ -1,28 +1,36 @@
-[debug] [2017-07-16T12:57:37.671Z] ----------------------------------------------------------------------
-[debug] [2017-07-16T12:57:37.680Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-07-16T12:57:37.682Z] CLI Version:  3.9.1
-[debug] [2017-07-16T12:57:37.682Z] Platform:     win32
-[debug] [2017-07-16T12:57:37.682Z] Node Version: v6.11.1
-[debug] [2017-07-16T12:57:37.684Z] Time:         Sun Jul 16 2017 19:57:37 GMT+0700 (SE Asia Standard Time)
-[debug] [2017-07-16T12:57:37.684Z] ----------------------------------------------------------------------
+[debug] [2017-07-16T14:26:22.160Z] ----------------------------------------------------------------------
+[debug] [2017-07-16T14:26:22.160Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-16T14:26:22.176Z] CLI Version:  3.9.1
+[debug] [2017-07-16T14:26:22.176Z] Platform:     win32
+[debug] [2017-07-16T14:26:22.176Z] Node Version: v6.11.1
+[debug] [2017-07-16T14:26:22.176Z] Time:         Sun Jul 16 2017 21:26:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:22.176Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-07-16T12:57:37.733Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-07-16T12:57:37.735Z] > authorizing via signed-in user
-[debug] [2017-07-16T12:57:37.743Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-simple-app-c5f7c  
- Sun Jul 16 2017 19:57:37 GMT+0700 (SE Asia Standard Time)
-[debug] [2017-07-16T12:57:42.464Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-16T12:57:42.467Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-simple-app-c5f7c/tokens  
- Sun Jul 16 2017 19:57:42 GMT+0700 (SE Asia Standard Time)
-[debug] [2017-07-16T12:57:44.742Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-16T14:26:22.207Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-16T14:26:22.223Z] > authorizing via signed-in user
+[debug] [2017-07-16T14:26:22.228Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-16T14:26:22.228Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/joMX9SpG5lFQIa6Zw1bxIJJCJrpLCwXu80O-kyisz2Y',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jul 16 2017 21:26:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:23.993Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-16T14:26:24.065Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-simple-app-c5f7c  
+ Sun Jul 16 2017 21:26:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:26.645Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-16T14:26:26.645Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-simple-app-c5f7c/tokens  
+ Sun Jul 16 2017 21:26:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:29.229Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\lenovo\Documents\git\bootstrap\simple-webpage'...
 [info] 
-[debug] [2017-07-16T12:57:44.766Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-simple-app-c5f7c  
- Sun Jul 16 2017 19:57:44 GMT+0700 (SE Asia Standard Time)
-[debug] [2017-07-16T12:57:46.182Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-16T12:57:46.183Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/710278269268/clients/_:getWebAppConfig  
- Sun Jul 16 2017 19:57:46 GMT+0700 (SE Asia Standard Time)
-[debug] [2017-07-16T12:57:49.228Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-16T14:26:29.245Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-simple-app-c5f7c  
+ Sun Jul 16 2017 21:26:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:30.844Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-16T14:26:30.844Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/710278269268/clients/_:getWebAppConfig  
+ Sun Jul 16 2017 21:26:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-07-16T14:26:31.844Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: /
 [info] +  hosting: Local server: http://localhost:5000
 
